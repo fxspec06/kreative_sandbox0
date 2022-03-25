@@ -76,6 +76,7 @@ var Post = function (title, desc, link) {
   this.desc = desc;
   this.link = link;
 
+  // materializes the 'post' into the HTML so the user can see it.
   this.postToPage = function () {
     var postSection = document.getElementsByClassName("postSection")[0];
     postSection.innerHTML +=
