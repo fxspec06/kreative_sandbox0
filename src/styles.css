@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* BRYAN ADDED */
+header > nav > div:nth-child(3) {
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+body,
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.username {
+  color: #95cd41;
+}
+.introText {
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 65, 20, 0.4) 0%,
+      rgba(149, 205, 65, 0.2) 100%
+    ),
+    url("https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-size: cover;
+  background-position: no-repeat;
+  object-fit: contain;
+  height: 30vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f6d860;
+}
+
+.link {
+  color: #95cd41;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.left {
+  flex: 0.7;
+  justify-content: space-around;
+}
+
+.right {
+  flex: 0.3;
+  justify-content: space-around;
+}
+
+.search label {
+  margin-right: 16px;
+}
+
+.introText {
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bigText {
+  margin-bottom: 12px;
+  font-size: 48px;
+  color: #95cd41;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+#smallText {
+  font-size: 24px;
+  color: #95cd41;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.card {
+  flex: 0 1 24%;
+  background: #f6d860;
+  border-radius: 5px;
+  margin: 24px 0 12px 0;
+  box-shadow: 6px 10px 5px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 6px 10px 5px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 6px 10px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  padding: 8px;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#cardSection,
+#postSection {
+  padding: 24px 12px;
+  margin: 24px 12px;
+}
+
+.post {
+  border: solid 1px #ff7f3f;
+  border-radius: 12px;
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 6px 10px 5px 1px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 6px 10px 5px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 6px 10px 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.post img {
+  padding: 24px;
+}
+
+.post-content {
+  padding: 24px;
+}
+
+.post-content h2 {
+  font-size: 36px;
+  margin-bottom: 24px;
+  color: #ff7f3f;
+}
+
+.heading {
+  font-size: 48px;
+  margin: 24px 12px;
+}
+
+.post-content p {
+  margin-bottom: 16px;
+}
