@@ -58,11 +58,16 @@ addNewCard(
 );*/
 
 // Question 6:
-// grab the first post
 
+// grab the first post
 var post = document.getElementsByClassName("post")[0];
-// add the image **NOTE: I added style="width: auto;" because the image was stretching horizontally on wide browser pages
-post.innerHTML += '<img style="width: auto;" src="assets/city1.jpg" />';
+// add the image
+// NOTE: i had added a width: auto;
+// css inline attribute to post images
+// due to in browser width stretching,
+// but opted to not use this because
+// the image does not shrink in mobile with this fix.
+post.innerHTML += '<img src="assets/city1.jpg" />';
 
 // Question 7 & 8:
 
@@ -78,7 +83,7 @@ var Post = function (title, desc, link) {
       this.title +
       "</h2><p>" +
       this.desc +
-      '</p></main><img style="width: auto;" src="' +
+      '</p></main><img src="' +
       this.link +
       '" /></article>';
   };
